@@ -7,10 +7,9 @@ import 'rxjs/add/operator/map';
 export class AppService {
 
     // public headers = new HttpHeaders().set('Content-Type', 'application/json');
+    //hecha@qwerty
 
-    public url = 'http://data.fixer.io/api/latest?access_key=c508f1138f8337c54bb7f315f4fbd02f&base=EUR&symbols=USD,INR,EUR';
-
-    // accessKey='cdb9c5c98af1459593e382c877ca7ae1'
+    public url = 'http://data.fixer.io/api/latest?access_key=cdb9c5c98af1459593e382c877ca7ae1&base=EUR&symbols=USD,INR,EUR';
 
     constructor(
         private _http: Http

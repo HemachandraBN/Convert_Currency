@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DustinComponent } from './dustin.component';
+import { ConverterComponent } from './converter.component';
 
 describe('DustinComponent', () => {
-  let component: DustinComponent;
-  let fixture: ComponentFixture<DustinComponent>;
+  let component: ConverterComponent;
+  let fixture: ComponentFixture<ConverterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DustinComponent ]
+      declarations: [ ConverterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DustinComponent);
+    fixture = TestBed.createComponent(ConverterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

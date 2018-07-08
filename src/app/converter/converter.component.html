@@ -4,8 +4,8 @@
       <input type="number" class="inputBox" [(ngModel)]="fromInput" (keyup)="onInputKeyUp('from')">
     </div>
     <div class="column" [style.width]="'20%'" [style.height]="'100%'" [style.margin-right]="'5%'">
-      <div ngbDropdown class="d-inline-block">
-        <button class="btn btn-outline-primary" id="fromId" ngbDropdownToggle>{{selectedDropDownItem}}</button>
+      <div ngbDropdown class="d-inline-block" [style.width]="'100%'">
+        <button class="btn btn-outline-primary" [style.width]="'100%'" id="fromId" ngbDropdownToggle>{{fromDpDnSelected}}</button>
         <div ngbDropdownMenu aria-labelledby="fromId" [style.min-width]="'0px'" [style.width]="'100%'" [style.padding]="'0.5rem 0 0 0'"
           [style.margin]="'0.125rem 0 0 0'">
           <button *ngFor="let item of dropDownItems" class="dropdown-item" [style.padding]="'0px'" [style.text-align]="'center'" (click)="dropDownListItemClick($event, 'from')">
@@ -15,11 +15,11 @@
     </div>
     <div class="roW" [style.width]="'100%'" [style.height]="'30%'" [style.margin-top]="'12%'">
       <div class="column" [style.width]="'65%'" [style.height]="'100%'">
-        <input type="number" class="inputBox error" [(ngModel)]="toInput" (keyup)="onInputKeyUp('to')">
+        <input type="number" class="inputBox" [(ngModel)]="toInput" (keyup)="onInputKeyUp('to')">
       </div>
       <div class="column" [style.width]="'20%'" [style.height]="'100%'" [style.margin-right]="'5%'">
-        <div ngbDropdown class="d-inline-block">
-          <button class="btn btn-outline-primary" id="toId" ngbDropdownToggle>{{selectedDropDownItem}}</button>
+        <div ngbDropdown class="d-inline-block" [style.width]="'100%'"[style.width]="'100%'" >
+          <button class="btn btn-outline-primary" [style.width]="'100%'" id="toId" ngbDropdownToggle>{{toDpDnSelected}}</button>
           <div ngbDropdownMenu aria-labelledby="toId" [style.min-width]="'0px'" [style.width]="'100%'" [style.padding]="'0.5rem 0 0 0'"
             [style.margin]="'0.125rem 0 0 0'">
             <button *ngFor="let item of dropDownItems" class="dropdown-item" [style.padding]="'0px'" [style.text-align]="'center'" (click)="dropDownListItemClick($event, 'to')">
