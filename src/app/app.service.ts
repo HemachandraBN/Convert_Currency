@@ -8,6 +8,8 @@ export class AppService {
 
     // public headers = new HttpHeaders().set('Content-Type', 'application/json');
     //hecha@qwerty
+    //jfgfmhgchgcmhg
+    //mhfhgcmhcmhghgmg
 
     public url = 'http://data.fixer.io/api/latest?access_key=cdb9c5c98af1459593e382c877ca7ae1&base=EUR&symbols=USD,INR,EUR';
 
